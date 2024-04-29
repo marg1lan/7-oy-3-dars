@@ -3,7 +3,7 @@ import allProducts from '../../data'
 
 const initialState = {
     products:allProducts,
-    total:0,
+    total:16,
     price:0,
 }
 
