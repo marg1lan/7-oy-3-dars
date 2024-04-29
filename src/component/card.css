@@ -1,0 +1,69 @@
+.card {
+    width: 18rem;
+    height: 450px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.card-img-top {
+    border-radius: 8px;
+    height: 180px;
+}
+
+.delete {
+    width: 80px;
+    border: 1px solid red;
+    border-radius: 8px;
+    height: 30px;
+    background: red;
+    color: white;
+    margin-top: -30px;
+    margin-left: 30px;
+    transition: all 0.5s
+}
+
+.delete:hover{
+    transform: scale(1.1)
+}
+.btns {
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    gap: 50px;
+}
+
+.kamaytirish {
+    width: 40px;
+    height: 30px;
+    background: lightgray;
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.kopaytirish {
+    width: 40px;
+    height: 30px;
+    background: lightgray;
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ora {
+    padding: 10px;
+}
